@@ -16,7 +16,7 @@ const handleSlider = (event) => {
 const handleCheckbox = () => {
   const numberEl = getElement("number");
   const specialCharEl = getElement("special");
- ti
+ 
   if (numberEl.checked === true) {
     
     charSet += "0123456789";
